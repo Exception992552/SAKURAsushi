@@ -78,6 +78,8 @@ new WOW().init({
 $("a[href*='#'].link-menu").mPageScroll2id({
  scrollingEasing: "easeOutQuint"
 });
-
+$("a[href*='#'].link-down").mPageScroll2id({
+ scrollingEasing: "easeOutQuint"
+});
 
 });
