@@ -75,5 +75,9 @@ new WOW().init({
     offset:1
 });
 
+$("a[href*='#'].link-menu").mPageScroll2id({
+ scrollingEasing: "easeOutQuint"
+});
+
 
 });
